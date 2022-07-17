@@ -1,0 +1,501 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Thambi+2&family=Domine:wght@700&family=Permanent+Marker&family=Sansita+Swashed:wght@300&family=Syne+Mono&family=Ubuntu:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Thambi+2&family=Domine:wght@700&family=Gentium+Book+Plus&family=Permanent+Marker&family=Sansita+Swashed:wght@300&family=Syne+Mono&family=Ubuntu:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Thambi+2&family=Bebas+Neue&family=Domine:wght@700&family=Gentium+Book+Plus&family=Permanent+Marker&family=Sansita+Swashed:wght@300&family=Syne+Mono&family=Ubuntu:wght@300&display=swap");
+* {
+  font-family: "Gentium Book Plus", serif;
+  box-sizing: border-box;
+}
+/*----------------------------------- Utility Classes--------------------------------------------- */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.jc {
+  justify-content: center;
+}
+
+/*----------------------------------- Utility Classes--------------------------------------------- */
+
+/*----------------------------------------------- Header----------------------------------------------- */
+
+.top {
+  background: url("images/bground.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+.logoText {
+  letter-spacing: -1px;
+}
+
+.navbar::before {
+  background-color: #ffffff;
+  content: "";
+  /* background-color:black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.78; */
+  border-bottom: 4px solid #f5903a;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+
+li a:hover {
+  /* font-size: 1.25rem; */
+  /* color: #f5903a; */
+  color: black;
+  border-bottom: 4px solid #f5903a;
+}
+
+
+/*----------------------------------------------- Header----------------------------------------------- */
+
+/*------------------------------------------------------- Banner Text------------------------------------------------------- */
+
+.banner {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h3 {
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.banner h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4.5rem;
+  padding: 9px;
+  color: rgb(255, 255, 255);
+  background-color: #1d1d1e85;
+}
+
+/*------------------------------------------------------- Banner Text------------------------------------------------------- */
+
+/* -------------------------------------Middle White Text Container -------------------------------------*/
+
+.content_container {
+  height: 40vh;
+  height: auto;
+  height: auto;
+  /* background-color: aqua; */
+  /* margin-top: -20%; */
+  position: relative;
+  top: -225px;
+}
+
+.content {
+  background-color: white;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.text {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  width: 50%;
+}
+
+.text h3 {
+  background-color: #2d2c2c;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 9px 0px;
+  font-size: 2.8rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.text h3 span {
+  color: #ff8a24;
+  font-size: 2.8rem;
+}
+
+.content {
+  align-items: flex-start;
+}
+
+.content_list li {
+  list-style: circle;
+  list-style: disc;
+  margin-top: 12px;
+}
+
+.donation_imgcontainer {
+  width: 50%;
+  flex-direction: column;
+}
+
+.donation_imgcontainer::before {
+  content: "";
+  background: url("images/donation.jpg") no-repeat center center/cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 60vh;
+  width: 80%;
+  opacity: 0.77;
+  border-radius: 12px;
+}
+
+.giveOnce {
+  /* background-color: #fffefe; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color: rgb(255, 0, 0);  */
+  color: #ff7701;
+  padding: 6px 12px;
+  position: absolute;
+  top: 40px;
+}
+
+.btn1 {
+  justify-content: center;
+  margin-top: 4%;
+  margin-left: 1%;
+}
+
+.donate_btn {
+  padding: 5px 43px;
+  font-size: 1.4rem;
+  border: none;
+  border: 2px solid black;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.donate_btn:hover {
+  /* color: #ff7701; */
+  /* background-color: #ff0202; */
+  /* background-color: rgb(56, 56, 56); */
+  /* color: #f5903a; */
+  background-color: #2890ff;
+  background-color: #ff8a24;
+  color: white;
+  border: navajowhite;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* -------------------------------------Middle White Text Container -------------------------------------*/
+
+/*-------------------------------------- Aboout the Campaign-------------------------------------- */
+
+.about {
+  margin-top: -9%;
+}
+
+.aboutContent h1,
+.aboutHading {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 3.8rem;
+}
+
+.aboutHeading {
+  color: #ff8a24;
+  font-family: "Bebas Neue", cursive;
+}
+
+.aboutContent p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.campaignImg {
+  padding: 12px;
+  padding-top: 22px;
+}
+
+.campaignImg img {
+  width: 70vh;
+  border-radius: 6px;
+}
+
+.aboutCol1 {
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.aboutCol2 {
+  padding: 22px;
+  justify-content: center;
+}
+
+.counterBorder1 {
+  border: 2px solid #ff8a24;
+  justify-content: flex-end;
+  padding: 8px 18px;
+  align-items: center;
+  font-size: 1.3rem;
+  /* margin: 0px; */
+  /* width: 20%; */
+  margin: 0;
+  padding: 2%;
+  margin-top: -9%;
+}
+
+.counterBorder2 {
+  border: 2px solid #ff8a24;
+  justify-content: flex-end;
+  padding: 8px 18px;
+  align-items: center;
+  font-size: 1.3rem;
+  /* margin: 0px; */
+  /* width: 20%; */
+  margin: 0;
+  padding: 2%;
+  margin-top: -9%;
+}
+
+.counterBorder2 p,
+.counterBorder1 p {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+
+.Number1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5.6rem;
+  width: 42%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: rgb(255, 255, 255);
+  margin-left: 6%;
+
+  /* background-color: #f30303; */
+  /* background: white; */
+}
+
+.Number2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5.6rem;
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: rgb(255, 255, 255);
+  margin-left: 6%;
+
+  /* background-color: #f30303; */
+  /* background: white; */
+}
+
+.Number1 img {
+  margin-left: 4%;
+}
+
+/*-------------------------------------- Aboout the Campaign-------------------------------------- */
+
+/* ---------------------------------------Intervention Section--------------------------------------- */
+
+.interventions {
+  margin-top: 10% !important;
+}
+
+.Intheading h1,
+span {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+}
+
+.Intheading span {
+  color: #ff8a24;
+  font-size: 3.6rem;
+}
+
+.intcol1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 4px solid #ff7701; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin: 3%;
+  padding: 35px 5px;
+  border-radius: 9px;
+}
+
+.intcol1 h3 {
+  font-family: "Bebas Neue", cursive;
+  padding: 9px 26px;
+}
+
+/* ---------------------------------------Intervention Section--------------------------------------- */
+
+/*---------------------------------------- Bottom Content---------------------------------------- */
+.bottom {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding-top: 4%;
+  /* border-top: 2px solid #f5903a; */
+  /* background-color: #eeeeee; */
+}
+
+.botmContent,
+.butn {
+  flex-direction: column;
+}
+
+.botmContent h1,
+span {
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.botmContent span {
+  color: #f5903a;
+}
+
+.botmImg img {
+  width: 80vh;
+  border-radius: 6px;
+}
+
+.butn img {
+  width: 58%;
+}
+
+/*---------------------------------------- Bottom Content---------------------------------------- */
+
+/*------------------------------------------- Contact form ------------------------------------------- */
+
+#formContainer {
+  margin: auto;
+  width: 45vw;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 3%;
+}
+
+.conactH1 {
+  margin: auto;
+  width: fit-content;
+  font-size: 3rem;
+}
+
+.form2 input,
+label {
+  font-size: 1.2rem;
+}
+
+/* CSS */
+.button-4 {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+/*------------------------------------------- Contact form ------------------------------------------- */
+.footerCont {
+  margin-top: 4%;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border-top: 1px solid #000000;
+}
+
+.footerCont p {
+  margin-bottom: 0;
+  padding: 8px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+
+.footerCont img {
+  width: 32vh;
+}

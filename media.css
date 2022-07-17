@@ -1,0 +1,146 @@
+@media (max-width: 1230px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    width: auto;
+  }
+
+  .donation_imgcontainer {
+    width: 80vw;
+  }
+
+  .giveOnce {
+    position: static;
+  }
+
+  .col {
+    flex: auto;
+  }
+
+  .content_container {
+    top: -140px;
+  }
+
+  .Inthead {
+    text-align: center;
+  }
+
+  .text h3 {
+    text-align: center;
+  }
+
+  .aboutContent h1,
+  aboutHading {
+    text-align: center;
+  }
+
+  .campaignImg img {
+    width: 80vw;
+  }
+
+  .aboutCol2 {
+    justify-content: center;
+  }
+
+  .campaignImg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .Number1 {
+    /* width: 25%; */
+    display: none;
+  }
+
+  .Number2 {
+    /* width: 8%; */
+    display: none;
+  }
+
+  .counterBorder1 {
+    /* margin-top: -6%; */
+    display: none;
+  }
+
+  .counterBorder2 {
+    /* margin-top: -6%; */
+    display: none;
+  }
+
+  .botmImg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .botmImg img {
+    width: 80vw;
+  }
+
+  .botmContent {
+    margin-top: 3%;
+  }
+
+  .col1 {
+    justify-content: center;
+  }
+
+  #formContainer {
+    width: 80vw;
+  }
+}
+@media (max-width: 490px) {
+  .text h3 {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  
+.nav li a {
+  font-size: 0.9rem;
+}
+
+  .conactH1 {
+    font-size: 2rem;
+  }
+
+  #contactus{
+    margin-bottom: 40px;
+  }
+
+
+
+}
+
+@media (max-width: 329px) {
+  .nav li{
+    margin: 7px !important;
+  }
+  .logoText{
+    margin: 1rem !important;
+  }
+  .banner h1{
+    font-size: 4rem;
+  }
+
+  .Intheading h1{
+    font-size: 2.5rem;
+  }
+
+  .Intheading span{
+    font-size: 2.6rem;
+  }
+
+  
+  .form2 input,
+label {
+  font-size: 1rem;
+}
+.conactH1 {
+  font-size: 1.6rem;
+}
+
+}
